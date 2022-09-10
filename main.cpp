@@ -93,7 +93,7 @@ int main()
     //        }
     //    }
     VideoState vstate;
-    if(!video_open(&vstate,"output2.mkv")){
+    if(!video_open(&vstate,"output1.mp4")){
         return 1;
     }
     constexpr int ALIGNMENT = 128;
